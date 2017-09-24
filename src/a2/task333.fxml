@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="508.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a2.Task333Controller">
+   <children>
+      <Button fx:id="host" layoutX="155.0" layoutY="165.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="66.0" prefWidth="189.0" text="Host Game" />
+      <Button fx:id="join" layoutX="155.0" layoutY="264.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="66.0" prefWidth="189.0" text="Join Game" />
+      <Label layoutX="109.0" layoutY="67.0" text="Multi Play Lobby">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

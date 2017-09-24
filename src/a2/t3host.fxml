@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="508.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a2.T3hostController">
+   <children>
+      <Label layoutX="157.0" layoutY="127.0" text="Host IP Address">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Label fx:id="hip" layoutX="163.0" layoutY="221.0" prefHeight="30.0" prefWidth="175.0">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Button fx:id="next" layoutX="212.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="47.0" prefWidth="76.0" text="Next" />
+   </children>
+</AnchorPane>

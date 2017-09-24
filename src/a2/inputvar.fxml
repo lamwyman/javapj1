@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="570.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="a2.InputvarController">
+   <children>
+      <Label layoutX="58.0" layoutY="101.0" text="Init Life Elements:" />
+      <Label layoutX="357.0" layoutY="101.0" text="Number of cities: 5" />
+      <Label layoutX="571.0" layoutY="101.0" text="Total Time:" />
+      <Label layoutX="93.0" layoutY="199.0" text="Init HP">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="100.0" layoutY="252.0" text="Dragon" />
+      <Label layoutX="250.0" layoutY="252.0" text="Ninja" />
+      <Label layoutX="391.0" layoutY="252.0" text="Iceman" />
+      <Label layoutX="550.0" layoutY="252.0" text="Lion" />
+      <Label layoutX="680.0" layoutY="252.0" text="Wolf" />
+      <Label layoutX="59.0" layoutY="343.0" text="Attack Value">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="initlife" layoutX="219.0" layoutY="95.0" prefHeight="36.0" prefWidth="93.0" />
+      <TextField fx:id="time" layoutX="675.0" layoutY="95.0" prefHeight="36.0" prefWidth="86.0" />
+      
+      <TextField fx:id="dragonhp" layoutX="172.0" layoutY="246.0" prefHeight="36.0" prefWidth="62.0" />
+      <TextField fx:id="ninjahp" layoutX="302.0" layoutY="246.0" prefHeight="36.0" prefWidth="62.0" />
+      <TextField fx:id="icemanhp" layoutX="462.0" layoutY="246.0" prefHeight="36.0" prefWidth="62.0" />
+      <TextField fx:id="lionhp" layoutX="594.0" layoutY="246.0" prefHeight="36.0" prefWidth="62.0" />
+      <TextField fx:id="wolfhp" layoutX="732.0" layoutY="246.0" prefHeight="36.0" prefWidth="62.0" />
+      
+      <TextField fx:id="dragonatt" layoutX="172.0" layoutY="401.0" prefHeight="36.0" prefWidth="62.0" />
+      <TextField fx:id="ninjaatt" layoutX="302.0" layoutY="401.0" prefHeight="36.0" prefWidth="62.0" />
+      <TextField fx:id="icemanatt" layoutX="462.0" layoutY="401.0" prefHeight="36.0" prefWidth="62.0" />
+      <TextField fx:id="lionatt" layoutX="594.0" layoutY="401.0" prefHeight="36.0" prefWidth="62.0" />
+      <TextField fx:id="wolfatt" layoutX="732.0" layoutY="401.0" prefHeight="36.0" prefWidth="62.0" />
+      
+      <Label layoutX="680.0" layoutY="407.0" text="Wolf" />
+      <Label layoutX="550.0" layoutY="407.0" text="Lion" />
+      <Label layoutX="391.0" layoutY="407.0" text="Iceman" />
+      <Label layoutX="250.0" layoutY="407.0" text="Ninja" />
+      <Label layoutX="100.0" layoutY="407.0" text="Dragon" />
+      
+      <Button fx:id="start" layoutX="681.0" layoutY="493.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="45.0" prefWidth="86.0" text="start" />
+   </children>
+</AnchorPane>
